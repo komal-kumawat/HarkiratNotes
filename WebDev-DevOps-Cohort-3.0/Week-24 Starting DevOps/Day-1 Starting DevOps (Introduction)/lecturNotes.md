@@ -144,3 +144,67 @@ ssh ubuntu@SERVER_IP
 or
 ssh root@SERVER_IP
 ```
+
+# SSH protocol, ssh keypair based
+
+Generate a new public private keypair
+
+```solidity
+ssh-keygen
+```
+
+Explore your public and private key
+
+```solidity
+cat ~/.ssh/id_rsa.pub
+cat ~/.ssh/id_rsa
+```
+
+- Try adding it to Github so you can push to github without password
+    
+    ![Screenshot 2025-01-25 at 7.36.48 PM.png](attachment:c128121c-3288-4902-a8f9-c477e52358eb:Screenshot_2025-01-25_at_7.36.48_PM.png)
+    
+- Try adding it to digitalocean and ssh using it.
+    
+    ![Screenshot 2025-01-25 at 7.37.02 PM.png](attachment:c533a957-756a-4875-9b68-439cb3595ae6:Screenshot_2025-01-25_at_7.37.02_PM.png)
+    
+
+```solidity
+ssh ubuntu@IP
+or
+git clone git@github.com:100xdevs-cohort-3/week-24-deposit-with-infra.git (try a private repo)
+```
+
+![Screenshot 2025-01-25 at 7.36.10 PM.png](attachment:c9b4a0bc-c7b1-4b75-b7c2-ccfa79d49f1c:Screenshot_2025-01-25_at_7.36.10_PM.png)
+
+Check `authorized_keys`
+
+```solidity
+cat ~/.ssh/authorized_keys
+```
+
+### How to hack your friends laptop?
+
+Put your public key in your friends laptop as an authorized key.
+
+## Algorithms for public key cryptography
+
+The `ssh-keygen` tool can generate SSH key pairs using several different cryptographic algorithms, depending on what you choose during the key creation process. By default, it typically uses **RSA**, but you can specify other algorithms as well. Here are the most commonly used algorithms:
+
+### **1. RSA (Rivest–Shamir–Adleman)**
+
+- **Default Algorithm** (for most systems): The `ssh-keygen` tool uses RSA by default when creating keys.
+- RSA is a widely-used public-key algorithm that provides strong security.
+
+### **2. Ed25519**
+
+- **A newer and more secure option**: Ed25519 is a modern elliptic curve algorithm that is designed to provide both high security and efficiency.
+- It’s **faster**, more **secure** for the same key size, and less prone to certain vulnerabilities compared to RSA.
+
+```solidity
+ssh-keygen -t ed25519
+```
+
+### **3. ECDSA (Elliptic Curve Digital Signature Algorithm)**
+
+- **Another elliptic curve algorithm**, which is considered a more secure and efficient alternative to RSA for most use cases.
