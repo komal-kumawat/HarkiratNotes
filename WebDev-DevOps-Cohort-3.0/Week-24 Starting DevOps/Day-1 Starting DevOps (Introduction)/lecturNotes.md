@@ -102,9 +102,6 @@ It scans the target machine’s ports.
 
 - The virtualization layer introduces a slight overhead in terms of performance because the hypervisor needs to manage resources and ensure each VM operates independently. However, with modern hypervisors and powerful hardware, this overhead is minimal.
 
-![Image](https://www.netapp.com/media/container-vs-vm-inline1_tcm19-82163.png?v=85344)
-
-
 
 
 # Bare metal servers
