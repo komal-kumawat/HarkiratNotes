@@ -135,7 +135,7 @@ While setting up a server, select password based authentication
 
 **Example from `digitalocean`** 
 
-![image][Screenshot 2025-01-25 at 7.12.34 PM.png](attachment:40f19f5b-2ebe-4646-b478-a78d6ff768cb:Screenshot_2025-01-25_at_7.12.34_PM.png)
+![image](attachment:40f19f5b-2ebe-4646-b478-a78d6ff768cb:Screenshot_2025-01-25_at_7.12.34_PM.png)
 
 ![Screenshot 2025-01-25 at 7.12.55 PM.png](attachment:8197216a-0af1-4205-8392-cd3e42e7608b:Screenshot_2025-01-25_at_7.12.55_PM.png)
 
