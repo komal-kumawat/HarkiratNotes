@@ -1,4 +1,4 @@
-Slide:- https://petal-estimate-4e9.notion.site/VMs-and-Deploying-a-MERN-app-1867dfd10735809b8c3ad17e07e23ff2
+[Slide](https://petal-estimate-4e9.notion.site/VMs-and-Deploying-a-MERN-app-1867dfd10735809b8c3ad17e07e23ff2)
 ## Local Network , routing (mild hosting)
 
 -> If you have multiple laptops on the sme wifi router , you an access one machine from another by using their private IP address . This is a mild version of deploying your app on your loal network (for whats called intranet)
