@@ -1,3 +1,4 @@
+Slide:- https://petal-estimate-4e9.notion.site/VMs-and-Deploying-a-MERN-app-1867dfd10735809b8c3ad17e07e23ff2
 ## Local Network , routing (mild hosting)
 
 -> If you have multiple laptops on the sme wifi router , you an access one machine from another by using their private IP address . This is a mild version of deploying your app on your loal network (for whats called intranet)
@@ -100,3 +101,8 @@ It scans the target machine’s ports.
 - VMs are highly flexible and easy to scale. You can quickly spin up, modify, or delete VMs, and you can consolidate multiple workloads on a single server.
 
 - The virtualization layer introduces a slight overhead in terms of performance because the hypervisor needs to manage resources and ensure each VM operates independently. However, with modern hypervisors and powerful hardware, this overhead is minimal.
+
+
+
+![Image](https://petal-estimate-4e9.notion.site/What-is-a-VM-1867dfd1073580d68977c35dc558b592)
+
