@@ -90,3 +90,13 @@ It scans the target machine’s ports.
 
 
 
+
+
+## Virtual machine(VM)
+- VMs run on a physical server (called the host) but are abstracted through a layer of virtualization software called a Hypervisor(eg. VMware , KVM). This hypervisor divides the host machine's resources (CPU , memory , storage ) into separate virtual machines.
+
+- Each VM acts like a completely independent machine, even though they share the underlying hardware. You can run different operating systems and applications in different VMs on the same physical server.
+
+- VMs are highly flexible and easy to scale. You can quickly spin up, modify, or delete VMs, and you can consolidate multiple workloads on a single server.
+
+- The virtualization layer introduces a slight overhead in terms of performance because the hypervisor needs to manage resources and ensure each VM operates independently. However, with modern hypervisors and powerful hardware, this overhead is minimal.
