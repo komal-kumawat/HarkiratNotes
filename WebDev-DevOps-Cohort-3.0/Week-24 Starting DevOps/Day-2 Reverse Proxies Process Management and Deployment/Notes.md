@@ -63,3 +63,9 @@ Port 443 → HTTPS (secure web)
 MySQL → 3306
 
 PostgreSQL → 5432
+
+
+
+# REVERSE PROXY
+
+
