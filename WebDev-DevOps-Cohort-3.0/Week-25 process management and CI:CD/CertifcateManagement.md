@@ -559,14 +559,10 @@ Uses public/private keys, used in handshake.
 Both client and server authenticate each other.
 
 ---
-
-If you want next level 🚀
-I can explain:
+Questions
 
 * How certificate chain works
 * Root CA vs Intermediate CA
 * What happens when certificate expires
 * Real AWS SSL setup with Load Balancer
 * Zero Trust Security Model
-
-Tell me which direction you want to go 😄
