@@ -27,4 +27,28 @@ The offering we will be focussing on today is Renting servers
 * **E** → Elastic (you can scale up/down anytime)
 * **C2** → Compute Cloud
 
+### Why “Elastic”?
+
+“Elastic” means you can:
+
+- Increase CPU/RAM anytime
+
+- Add more servers during high traffic
+
+- Remove servers when traffic decreases
+
+So you only pay for what you use 💰
+
 It’s called **Elastic Compute Cloud** because it provides **scalable computing power in the cloud**.
+
+
+### Steps for creating a ec server
+- give name of VM
+- Select OS
+- select the OS version
+- Select the Instance type
+- Create a new Keypair , set it
+- Add a new sec group
+- Add storage
+- launch instance
+
