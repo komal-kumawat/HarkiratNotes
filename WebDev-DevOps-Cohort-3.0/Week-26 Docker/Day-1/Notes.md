@@ -1,4 +1,5 @@
 
+![slides](https://projects.100xdevs.com/tracks/docker-2/docker-2-1)
 # DOCKER
 - Docker is a containerization platform that packages applications and their dependencies to run reliably across different environments.
 - slides: https://projects.100xdevs.com/tracks/docker-2/docker-2-13
