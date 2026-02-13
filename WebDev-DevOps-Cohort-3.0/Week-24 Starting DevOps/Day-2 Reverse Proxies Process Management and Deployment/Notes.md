@@ -68,4 +68,83 @@ PostgreSQL → 5432
 
 # REVERSE PROXY
 
+## 🔁 What is a Reverse Proxy?
+
+A **reverse proxy** is a server that sits **in front of backend servers** and handles client requests on their behalf.
+
+👉 Client → Reverse Proxy → Backend Server
+👉 Client never talks directly to backend.
+
+---
+
+## 📦 Simple Definition
+
+> A reverse proxy receives requests from users and forwards them to the appropriate backend server, then sends the response back to the user.
+
+---
+
+## 🧠 Why Use Reverse Proxy?
+
+### 1️⃣ Security
+
+Hides internal servers from the internet.
+
+### 2️⃣ Load Balancing
+
+Distributes traffic across multiple servers.
+
+### 3️⃣ SSL Termination
+
+Handles HTTPS encryption centrally.
+
+### 4️⃣ Caching
+
+Stores responses to improve speed.
+
+---
+
+## 🔄 How It Works
+
+![Image](https://cf-assets.www.cloudflare.com/slt3lc6tev37/3msJRtqxDysQslvrKvEf8x/f7f54c9a2cad3e4586f58e8e0e305389/reverse_proxy_flow.png)
+
+![Image](https://www.digitalocean.com/api/static-content/v1/images?src=https%3A%2F%2Fjournaldev.nyc3.cdn.digitaloceanspaces.com%2F2019%2F03%2Fnginx-reverse-proxy.png\&width=1920)
+
+![Image](https://miro.medium.com/0%2AkDWOAKI2SxARjmQ-.png)
+
+![Image](https://cdn.prod.website-files.com/5efc3ccdb72aaa7480ec8179/673c413af7c9e8a1b4d94706_61ee500a7545cc25448246d8_Proxy%2520Servers%2520vs.%2520VPNs%25202.png)
+
+Flow:
+
+1. User sends request
+2. Reverse proxy receives it
+3. Forwards to backend
+4. Backend sends response
+5. Reverse proxy returns it to user
+
+---
+
+## 🔥 Real Example
+
+Popular reverse proxy tools:
+
+* **Nginx**
+* **Apache HTTP Server**
+* **AWS Application Load Balancer**
+
+Example:
+When you deploy a MERN app:
+
+* Nginx acts as reverse proxy
+* Node.js runs on port 3000
+* Nginx listens on port 80/443
+* Nginx forwards traffic to Node
+
+---
+
+## 🎯 Interview One-Line Answer
+
+> A reverse proxy is a server that sits in front of backend servers, forwards client requests to them, and returns the response while improving security, scalability, and performance.
+
+---
+
 
