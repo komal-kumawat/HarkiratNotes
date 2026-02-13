@@ -52,3 +52,14 @@ It’s called **Elastic Compute Cloud** because it provides **scalable computing
 - Add storage
 - launch instance
 
+
+#### Ports
+Port 22 → SSH (remote server login)
+
+Port 80 → HTTP (non-secure web)
+
+Port 443 → HTTPS (secure web) 
+
+MySQL → 3306
+
+PostgreSQL → 5432
