@@ -12,3 +12,6 @@ It let’s you
 …
  
 The offering we will be focussing on today is Renting servers
+
+
+# EC2(Elastic compute cloud)
