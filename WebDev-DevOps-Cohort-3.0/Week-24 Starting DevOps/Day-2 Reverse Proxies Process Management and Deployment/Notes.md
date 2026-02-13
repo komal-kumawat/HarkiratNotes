@@ -2,6 +2,7 @@
 
 # AWS (Amazon Web Services)
 AWS is Amazon’s cloud service.
+(we call it cloud because we dont own the machine someone else does )
 It let’s you 
 - Rent servers
 - Manage domains
