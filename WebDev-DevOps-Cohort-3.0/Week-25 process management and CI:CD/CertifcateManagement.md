@@ -369,3 +369,204 @@ HTTPS uses TLS handshake to establish encrypted communication between client and
 Install certificate and configure ssl_certificate & ssl_certificate_key in Nginx config.
 
 ---
+
+Perfect Komal 🚀 Now let’s go deeper.
+
+We’ll cover:
+
+1️⃣ What is CSR
+2️⃣ What is CA
+3️⃣ Symmetric vs Asymmetric Encryption
+4️⃣ Mutual TLS (mTLS)
+
+---
+
+# 📄 1️⃣ What is CSR (Certificate Signing Request)?
+
+## 📌 Definition
+
+> A CSR is a request sent to a Certificate Authority (CA) to obtain an SSL/TLS certificate.
+
+When you want HTTPS for your domain, you first generate:
+
+* Private Key 🔐
+* CSR file 📄
+
+The CSR contains:
+
+* Domain name
+* Organization info
+* Public key
+
+---
+
+## 🔄 CSR Flow
+
+![Image](https://docs.netscaler.com/en-us/citrix-adc/media/obtain-a-certificate-from-ca.png)
+
+![Image](https://support.hpe.com/hpesc/public/api/document/a00112542en_us/generate_csr.png?v=1.0)
+
+![Image](https://documentation.nokia.com/html/255-490-001R6.3.2/LCM/admin/webdocs-enus/255-490-001R6-3-2/illustrations/png32.png)
+
+![Image](https://miro.medium.com/v2/resize%3Afit%3A1400/0%2AC2zknZt05Fj9uEsx.png)
+
+Steps:
+
+1. Generate private key
+2. Generate CSR
+3. Send CSR to CA
+4. CA verifies domain
+5. CA issues certificate
+
+---
+
+# 🏢 2️⃣ What is CA (Certificate Authority)?
+
+## 📌 Definition
+
+> A Certificate Authority (CA) is a trusted organization that issues digital certificates.
+
+It verifies:
+
+* Domain ownership
+* Organization identity
+
+---
+
+## Examples of CA
+
+* **Let's Encrypt**
+* **DigiCert**
+* **GlobalSign**
+
+Browsers trust certificates signed by these CAs.
+
+---
+
+# 🔐 3️⃣ Symmetric vs Asymmetric Encryption
+
+## 🔑 Symmetric Encryption
+
+* Same key used for encryption & decryption
+* Very fast
+* Used for data transfer
+
+Example:
+AES
+
+---
+
+## 🔐 Asymmetric Encryption
+
+* Two keys (Public + Private)
+* Slower
+* Used for secure key exchange
+
+Example:
+RSA
+
+---
+
+## 📊 Comparison Table
+
+| Feature | Symmetric       | Asymmetric       |
+| ------- | --------------- | ---------------- |
+| Keys    | One key         | Public + Private |
+| Speed   | Fast            | Slower           |
+| Used In | Data encryption | Key exchange     |
+| Example | AES             | RSA              |
+
+---
+
+## 🔄 Diagram
+
+![Image](https://assets.bytebytego.com/diagrams/0349-symmetric-encryption-vs-asymmetric-encryption.png)
+
+![Image](https://miro.medium.com/v2/resize%3Afit%3A1400/0%2ADmy38RhtRH6SqK-x.png)
+
+![Image](https://www.scaler.com/topics/images/asymmetric-key-encryption-cyber-security.webp)
+
+![Image](https://www.researchgate.net/publication/337689228/figure/fig1/AS%3A881541647454209%401587187315997/Block-Diagram-of-Symmetric-and-Asymmetric-key-cryptography.ppm)
+
+---
+
+# 🔐 4️⃣ What is Mutual TLS (mTLS)?
+
+## 📌 Normal TLS
+
+Client verifies server certificate.
+Server does NOT verify client.
+
+Used in:
+
+* Normal HTTPS websites
+
+---
+
+## 📌 Mutual TLS (mTLS)
+
+Both sides verify each other.
+
+* Client verifies server
+* Server verifies client
+
+---
+
+## 🔄 mTLS Diagram
+
+![Image](https://victoronsoftware.com/posts/mtls-hello-world/mtls-handshake.png)
+
+![Image](https://ngrok.com/blog-assets/images/2024-06-06-what-is-mtls/blog-what-is-mTLS_diagram.png)
+
+![Image](https://mulesoft-labs.dev/codelabs/implement-2-way-ssl/img/ebffeb2a2e19d40a.png)
+
+![Image](https://www.pc-freak.net/images/1WaySSL-clien-to-server-illustrated.png)
+
+---
+
+## 🧠 Where mTLS Is Used?
+
+* Microservices communication
+* Banking APIs
+* Internal secure systems
+
+Example:
+Service A ↔ Service B
+Both must prove identity.
+
+---
+
+# 🎯 Interview Quick Summary
+
+### CSR
+
+A file generated to request SSL certificate from CA.
+
+### CA
+
+Trusted authority that issues digital certificates.
+
+### Symmetric Encryption
+
+Uses one key, fast, used for actual data transfer.
+
+### Asymmetric Encryption
+
+Uses public/private keys, used in handshake.
+
+### mTLS
+
+Both client and server authenticate each other.
+
+---
+
+If you want next level 🚀
+I can explain:
+
+* How certificate chain works
+* Root CA vs Intermediate CA
+* What happens when certificate expires
+* Real AWS SSL setup with Load Balancer
+* Zero Trust Security Model
+
+Tell me which direction you want to go 😄
