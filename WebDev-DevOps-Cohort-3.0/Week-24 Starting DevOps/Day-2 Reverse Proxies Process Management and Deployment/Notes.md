@@ -151,3 +151,14 @@ When you deploy a MERN app:
 # NGINX
 NGINX is a opem source software for web serving , reverse proxying , caching , load balancing , media streaming , and mor . It started out as a web server designed for max. performance and stability . In addition to its HTTP server  capabilities , NGINX can also function as a proxy server for email(IMAP , POP#  and SMTP) and a reverse proxy and load balancer for HTTP , TCP  and UDP servers.
 
+
+
+### Assignments
+- get a gcp acc and do this there
+- Replace nginx with traffic/ HAproxy/ Apache
+- Try deploying a react app
+- Get a domain (namecheap)
+- Try ASGs
+- Try to do cert management yourself
+- Create a CI/CD pipeline to auto deploy to your server from GH
+- forever on pm2 (process management)
