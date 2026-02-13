@@ -158,7 +158,7 @@ NGINX is a opem source software for web serving , reverse proxying , caching , l
 - Replace nginx with traffic/ HAproxy/ Apache
 - Try deploying a react app
 - Get a domain (namecheap)
-- Try ASGs
+- Try ASGs(Auto scaling groups)
 - Try to do cert management yourself
 - Create a CI/CD pipeline to auto deploy to your server from GH
 - forever on pm2 (process management)
