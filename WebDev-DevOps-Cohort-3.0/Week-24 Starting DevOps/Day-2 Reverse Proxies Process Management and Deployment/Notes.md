@@ -15,3 +15,16 @@ The offering we will be focussing on today is Renting servers
 
 
 # EC2(Elastic compute cloud)
+**Amazon EC2 (Elastic Compute Cloud)** is a cloud service by AWS that provides **virtual servers (instances)** to run applications on the internet.
+
+👉 Simple definition:
+**EC2 = Rent a computer (server) in the cloud.**
+
+---
+
+### Why is it called EC2?
+
+* **E** → Elastic (you can scale up/down anytime)
+* **C2** → Compute Cloud
+
+It’s called **Elastic Compute Cloud** because it provides **scalable computing power in the cloud**.
