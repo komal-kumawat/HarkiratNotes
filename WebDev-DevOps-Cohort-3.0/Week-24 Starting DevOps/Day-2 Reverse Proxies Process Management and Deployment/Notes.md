@@ -1,6 +1,6 @@
 ![Slide](https://projects.100xdevs.com/tracks/g0AcDSPl74nk45ZZjRdU/aws-1)
 
-# AWS (Amazon Web Services)
+# AWS (Amazon Web Services)(provides pay as you go model)
 AWS is Amazon’s cloud service.
 (we call it cloud because we dont own the machine someone else does )
 It let’s you 
