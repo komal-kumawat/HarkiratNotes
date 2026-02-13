@@ -1,6 +1,6 @@
 ![Slide](https://projects.100xdevs.com/tracks/g0AcDSPl74nk45ZZjRdU/aws-1)
 
-# AWS
+# AWS (Amazon Web Services)
 AWS is Amazon’s cloud service.
 It let’s you 
 - Rent servers
