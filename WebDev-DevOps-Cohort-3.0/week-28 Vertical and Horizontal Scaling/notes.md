@@ -11,3 +11,10 @@ htop:- htop is a command-line utility used to monitor system resources and manag
 
 - since js is a single threaded lang. i can run my code on one of my cores at a time  , cann't run (same code) on multiple cores .
 
+- thread is something that runs on cpu cores.
+##### Vertical Scaling:-  vertical scaling means increasing the size or capacity of the machine to support more loads.
+
+
+###### Horizontal scaling:-
+
+
