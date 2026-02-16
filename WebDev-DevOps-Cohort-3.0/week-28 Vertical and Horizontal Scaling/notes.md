@@ -8,3 +8,6 @@ htop:- htop is a command-line utility used to monitor system resources and manag
 - if a lot of processes are running then the cpu cores do context switching between processes
 
 - a single nodejs process can capture or take 100% of 1 cpu 
+
+- since js is a single threaded lang. i can run my code on one of my cores at a time  , cann't run (same code) on multiple cores .
+
