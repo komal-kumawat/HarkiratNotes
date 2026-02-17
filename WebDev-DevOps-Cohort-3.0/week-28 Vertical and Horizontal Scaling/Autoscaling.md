@@ -49,4 +49,14 @@ An **Auto Scaling Group** (ASG) in AWS (Amazon Web Services) is a service that a
 - bun bin.ts
 - Install pm2
 
-![Screenshot 2025-02-23 at 5.17.15 PM.png](https://file.notion.so/f/f/085e8ad8-528e-47d7-8922-a23dc4016453/341ad717-a73f-4569-b203-19ee7a970723/Screenshot_2025-02-23_at_5.21.21_PM.png?table=block&id=1a37dfd1-0735-8036-a570-f03ca6c75369&spaceId=085e8ad8-528e-47d7-8922-a23dc4016453&expirationTimestamp=1771336800000&signature=_nYt0TgQ0lsxP3Qu5eXM-4y_COehdssZxuTG8PQz9d4&downloadName=Screenshot+2025-02-23+at+5.21.21+PM.png)
+![Screenshot 2025-02-23 at 5.17.15 PM.png](https://file.notion.so/f/f/085e8ad8-528e-47d7-8922-a23dc4016453/2edc5db4-1e39-47fa-81e6-979b7174ddc7/Screenshot_2025-02-23_at_5.17.15_PM.png?table=block&id=1a37dfd1-0735-8050-b5dd-ff4d020051f0&spaceId=085e8ad8-528e-47d7-8922-a23dc4016453&expirationTimestamp=1771336800000&signature=GWG4AlZrFPaBiTJhxV2jsPsJ6EXmgrfryL75M7BPXJk&downloadName=Screenshot+2025-02-23+at+5.17.15+PM.png)
+
+
+
+# Creating an ami/image
+
+An **AMI (Amazon Machine Image)** in AWS (Amazon Web Services) is a pre-configured template used to create a virtual server, known as an EC2 (Elastic Compute Cloud) instance. It contains the operating system, application software, and settings required to launch and run the server.
+
+![Screenshot 2025-02-23 at 5.17.15 PM.png](https://file.notion.so/f/f/085e8ad8-528e-47d7-8922-a23dc4016453/c3770d30-4e9b-4720-bf48-a932ed252316/Screenshot_2025-02-23_at_5.18.43_PM.png?table=block&id=1a37dfd1-0735-805a-8b0a-e854f3818dfa&spaceId=085e8ad8-528e-47d7-8922-a23dc4016453&expirationTimestamp=1771336800000&signature=y6ZP3O0OK6I1uhZeWArEtAasOlCJmuv5YAzbJDtJNhs&downloadName=Screenshot+2025-02-23+at+5.18.43+PM.png)
+
+
