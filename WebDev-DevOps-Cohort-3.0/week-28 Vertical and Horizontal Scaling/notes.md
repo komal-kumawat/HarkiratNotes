@@ -321,3 +321,7 @@ It’s about:
 * Clear communication
 
 ---
+
+
+- scale up:- if cpu utilization is above a certain threshold
+- scale up:- if cpu utilization is below  a certain threshold
