@@ -52,3 +52,6 @@ An **Auto Scaling Group** (ASG) in AWS (Amazon Web Services) is a service that a
 ![Screenshot 2025-02-23 at 5.17.15 PM.png](attachment:2edc5db4-1e39-47fa-81e6-979b7174ddc7:Screenshot_2025-02-23_at_5.17.15_PM.png)
 
 https://file.notion.so/f/f/085e8ad8-528e-47d7-8922-a23dc4016453/341ad717-a73f-4569-b203-19ee7a970723/Screenshot_2025-02-23_at_5.21.21_PM.png?table=block&id=1a37dfd1-0735-8036-a570-f03ca6c75369&spaceId=085e8ad8-528e-47d7-8922-a23dc4016453&expirationTimestamp=1771336800000&signature=_nYt0TgQ0lsxP3Qu5eXM-4y_COehdssZxuTG8PQz9d4&downloadName=Screenshot+2025-02-23+at+5.21.21+PM.png
+
+<img src="Ihttps://file.notion.so/f/f/085e8ad8-528e-47d7-8922-a23dc4016453/341ad717-a73f-4569-b203-19ee7a970723/Screenshot_2025-02-23_at_5.21.21_PM.png?table=block&id=1a37dfd1-0735-8036-a570-f03ca6c75369&spaceId=085e8ad8-528e-47d7-8922-a23dc4016453&expirationTimestamp=1771336800000&signature=_nYt0TgQ0lsxP3Qu5eXM-4y_COehdssZxuTG8PQz9d4&downloadName=Screenshot+2025-02-23+at+5.21.21+PM.png
+" width="400"/>
