@@ -24,7 +24,7 @@ An **Auto Scaling Group** (ASG) in AWS (Amazon Web Services) is a service that a
     - ASGs perform regular health checks on the EC2 instances in the group. If an instance becomes unhealthy, it is automatically replaced with a new one.
 3. **Scaling Policies:**
     - You can configure scaling policies to define how the scaling should happen. This could be based on a schedule, like increasing the number of instances during peak traffic hours, or dynamically adjusting based on real-time metrics.
-4. **Launch Configurations/Launch Templates:**
+4. **Launch Configurations/Launch Templates:**(Blueprint of what we want)
     - These specify the configuration of instances launched within the group, such as the AMI (Amazon Machine Image), instance type, security group, key pair, and other parameters.
 5. **Desired, Minimum, and Maximum Instance Counts:**
     - You define the minimum and maximum number of instances the group can scale between. The **desired capacity** is the target number of instances you want the ASG to maintain at any time.
@@ -36,3 +36,17 @@ An **Auto Scaling Group** (ASG) in AWS (Amazon Web Services) is a service that a
 - **Cost Efficiency:** ASGs help reduce costs by ensuring you're only running as many instances as needed to handle the load.
 - **High Availability:** Automatically replacing unhealthy instances keeps your application running smoothly.
 - **Flexibility:** ASGs support both manual and dynamic scaling policies to cater to a wide range of use cases.
+
+
+# Create an instance which runs your app
+
+- Start an AWS EC2 instance
+- SSH into the machine
+- Install docker in the machine - https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-ubuntu-20-04
+- or Install node.js on the machine - https://www.digitalocean.com/community/tutorials/how-to-install-node-js-on-ubuntu-22-04, also install bun `npm install -g bun`
+- Clone the repo - https://github.com/100xdevs-cohort-3/ASG
+- bun install
+- bun bin.ts
+- Install pm2
+
+![Screenshot 2025-02-23 at 5.17.15 PM.png](attachment:2edc5db4-1e39-47fa-81e6-979b7174ddc7:Screenshot_2025-02-23_at_5.17.15_PM.png)
