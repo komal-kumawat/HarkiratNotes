@@ -100,9 +100,7 @@ Notice different pids in different devices
 
 
 
-Here’s your content rewritten cleanly in **`.md` (Markdown) format** 👇
 
----
 
 # Capacity Estimation
 
@@ -112,7 +110,7 @@ Interviewers may ask questions like:
 
 * How would you scale your server?
 * How do you handle traffic spikes?
-* How can you support a certain SLA under heavy load?
+* How can you support a certain SLA(service level agreement) under heavy load?
 * How many servers are required for X million users?
 * What happens during peak traffic?
 
